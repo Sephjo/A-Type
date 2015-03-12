@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: e520d79d083830844adebdac12d9cec7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Autre
+    100004: Autre 1
+    100006: Autre 1.001
+    100008: Autre 1.002
+    100010: Autre 2
+    100012: Cache Porte 00,0
+    100014: Cache Porte 00,1
+    100016: Cache Porte 00,2
+    100018: Cache Porte 01,0
+    100020: Cache Porte 01,1
+    100022: Cache Porte 01,2
+    100024: Cache Porte 02,0
+    100026: Cache Porte 02,1
+    100028: Cache Porte 02,2
+    100030: Cache Porte 03,0
+    100032: Cache Porte 03,1
+    100034: Cache Porte 03,2
+    100036: Cache Porte 04,0
+    100038: Cache Porte 04,1
+    100040: Cache Porte 04,2
+    100042: Cache Porte 05,0
+    100044: Cache Porte 05,1
+    100046: Cache Porte 05,2
+    100048: Cache Porte 06,0
+    100050: Cache Porte 06,1
+    100052: Cache Porte 06,2
+    100054: Cache Porte 07,0
+    100056: Cache Porte 07,0.001
+    100058: Cache Porte 07,1
+    100060: Cache Porte 07,1.001
+    100062: Cache Porte 07,2
+    100064: Cache Porte 07,2.001
+    100066: Cache Porte 08,0
+    100068: Cache Porte 08,1
+    100070: Cache Porte 08,2
+    100072: Cache Porte 09,0
+    100074: Cache Porte 09,1
+    100076: Cache Porte 09,2
+    100078: Cache Porte 10,0
+    100080: Cache Porte 10,1
+    100082: Cache Porte 10,2
+    100084: Cache Porte 11,0
+    100086: Cache Porte 11,1
+    100088: Cache Porte 11,2
+    100090: Cache Porte 12,0
+    100092: Cache Porte 12,1
+    100094: Cache Porte 12,2
+    100096: Cache Porte 13,0
+    100098: Cache Porte 13,1
+    100100: Cache Porte 13,2
+    100102: Cache Porte 14,0
+    100104: Cache Porte 14,1
+    100106: Cache Porte 14,2
+    100108: Cache Porte 15,0
+    100110: Cache Porte 15,1
+    100112: Cache Porte 15,2
+    100114: Cache Porte 16,0
+    100116: Cache Porte 16,1
+    100118: Cache Porte 16,2
+    100120: Camera
+    100122: Couloir Haut
+    100124: Cube.145
+    100126: Cube.146
+    100128: Cube.147
+    100130: Cube.148
+    100132: Cube.149
+    100134: Cube.150
+    100136: Cube.151
+    100138: Cube.152
+    100140: Cube.153
+    100142: Cube.154
+    100144: Cube.155
+    100146: Cube.156
+    100148: Cube.157
+    100150: Cube.158
+    100152: Cube.159
+    100154: Cube.160
+    100156: Cube.161
+    100158: Cube.162
+    100160: Cube.163
+    100162: Cube.164
+    100164: Cube.165
+    100166: Cube.166
+    100168: Cube.167
+    100170: Cube.168
+    100172: Cube.169
+    100174: Cube.170
+    100176: Cube.171
+    100178: Cube.172
+    100180: Fa__ade Arri__re
+    100182: Fa__ade Arri__re.002
+    100184: Fa__ade Arri__re.003
+    100186: Fa__ade Arri__re.004
+    100188: Fa__ade Arri__re.005
+    100190: Fa__ade Arri__re.006
+    100192: Fa__ade Arri__re.007
+    100194: Fa__ade Avant.001
+    100196: Fa__ade Droite
+    100198: Fa__ade Gauche
+    100200: Lamp
+    100202: Marche
+    100204: Marche 01
+    100206: Marche 02
+    100208: Marche 03
+    100210: Marche 04
+    100212: Marche 05
+    100214: Marche 06
+    100216: Marche 07
+    100218: Marche 08
+    100220: Marche 09
+    100222: Marche 10
+    100224: Marche 11
+    100226: Marche 12
+    100228: Marche 13
+    100230: Marche+ 01
+    100232: Marche+ 02
+    100234: Marche+ 03
+    100236: Marche+ 04
+    100238: Marche+ 05
+    100240: Marche+ 06
+    100242: Marche+ 07
+    100244: Marche+ 08
+    100246: Marche+ 09
+    100248: Marche+ 10
+    100250: Marche+ 11
+    100252: Marche+ 12
+    100254: Marche+ 13
+    100256: Mur 102 - English
+    100258: Mur 104 - 103
+    100260: Mur 105 - Toilettes
+    100262: Mur 106 - 107
+    100264: Mur 107 - 108
+    100266: Mur 108 - 109
+    100268: Mur 109 - Esc
+    100270: Mur English - Toilettes
+    100272: Mur Esc - 106
+    100274: Mur Toilette - 104
+    100276: Mur Toilette - Esc
+    100278: Sol bas
+    100280: Sol couloir$
+    100282: Sol Escalier
+    100284: Sol haut
+    100286: Terre-Plein Milieu escalier
+    100288: Window.000
+    100290: Window.001
+    100292: Window.002
+    100294: Window.003
+    100296: Window.004
+    100298: Window.005
+    100300: Window.006
+    100302: Window.007
+    100304: Window.008
+    100306: Window.009
+    100308: Window.010
+    100310: Window.011
+    100312: Window.012
+    100314: Window.013
+    100316: Window.014
+    100318: Window.015
+    100320: Window.016
+    100322: Window.017
+    100324: Window.018
+    100326: Window.019
+    100328: Window.020
+    100330: Window.021
+    100332: Window.022
+    100334: Window.023
+    100336: Window.024
+    100338: Window.025
+    100340: Window.026
+    100342: Window.027
+    100344: Window.028
+    100346: Window.029
+    100348: Window.030
+    100350: Window.031
+    100352: Window.032
+    100354: Window.033
+    100356: Window.034
+    100358: Window.035
+    100360: Window.036
+    100362: Window.037
+    100364: Window.038
+    100366: Window.039
+    100368: Window.040
+    100370: Window.041
+    100372: Window.042
+    100374: Window.043
+    400000: //RootNode
+    400002: Autre
+    400004: Autre 1
+    400006: Autre 1.001
+    400008: Autre 1.002
+    400010: Autre 2
+    400012: Cache Porte 00,0
+    400014: Cache Porte 00,1
+    400016: Cache Porte 00,2
+    400018: Cache Porte 01,0
+    400020: Cache Porte 01,1
+    400022: Cache Porte 01,2
+    400024: Cache Porte 02,0
+    400026: Cache Porte 02,1
+    400028: Cache Porte 02,2
+    400030: Cache Porte 03,0
+    400032: Cache Porte 03,1
+    400034: Cache Porte 03,2
+    400036: Cache Porte 04,0
+    400038: Cache Porte 04,1
+    400040: Cache Porte 04,2
+    400042: Cache Porte 05,0
+    400044: Cache Porte 05,1
+    400046: Cache Porte 05,2
+    400048: Cache Porte 06,0
+    400050: Cache Porte 06,1
+    400052: Cache Porte 06,2
+    400054: Cache Porte 07,0
+    400056: Cache Porte 07,0.001
+    400058: Cache Porte 07,1
+    400060: Cache Porte 07,1.001
+    400062: Cache Porte 07,2
+    400064: Cache Porte 07,2.001
+    400066: Cache Porte 08,0
+    400068: Cache Porte 08,1
+    400070: Cache Porte 08,2
+    400072: Cache Porte 09,0
+    400074: Cache Porte 09,1
+    400076: Cache Porte 09,2
+    400078: Cache Porte 10,0
+    400080: Cache Porte 10,1
+    400082: Cache Porte 10,2
+    400084: Cache Porte 11,0
+    400086: Cache Porte 11,1
+    400088: Cache Porte 11,2
+    400090: Cache Porte 12,0
+    400092: Cache Porte 12,1
+    400094: Cache Porte 12,2
+    400096: Cache Porte 13,0
+    400098: Cache Porte 13,1
+    400100: Cache Porte 13,2
+    400102: Cache Porte 14,0
+    400104: Cache Porte 14,1
+    400106: Cache Porte 14,2
+    400108: Cache Porte 15,0
+    400110: Cache Porte 15,1
+    400112: Cache Porte 15,2
+    400114: Cache Porte 16,0
+    400116: Cache Porte 16,1
+    400118: Cache Porte 16,2
+    400120: Camera
+    400122: Couloir Haut
+    400124: Cube.145
+    400126: Cube.146
+    400128: Cube.147
+    400130: Cube.148
+    400132: Cube.149
+    400134: Cube.150
+    400136: Cube.151
+    400138: Cube.152
+    400140: Cube.153
+    400142: Cube.154
+    400144: Cube.155
+    400146: Cube.156
+    400148: Cube.157
+    400150: Cube.158
+    400152: Cube.159
+    400154: Cube.160
+    400156: Cube.161
+    400158: Cube.162
+    400160: Cube.163
+    400162: Cube.164
+    400164: Cube.165
+    400166: Cube.166
+    400168: Cube.167
+    400170: Cube.168
+    400172: Cube.169
+    400174: Cube.170
+    400176: Cube.171
+    400178: Cube.172
+    400180: Fa__ade Arri__re
+    400182: Fa__ade Arri__re.002
+    400184: Fa__ade Arri__re.003
+    400186: Fa__ade Arri__re.004
+    400188: Fa__ade Arri__re.005
+    400190: Fa__ade Arri__re.006
+    400192: Fa__ade Arri__re.007
+    400194: Fa__ade Avant.001
+    400196: Fa__ade Droite
+    400198: Fa__ade Gauche
+    400200: Lamp
+    400202: Marche
+    400204: Marche 01
+    400206: Marche 02
+    400208: Marche 03
+    400210: Marche 04
+    400212: Marche 05
+    400214: Marche 06
+    400216: Marche 07
+    400218: Marche 08
+    400220: Marche 09
+    400222: Marche 10
+    400224: Marche 11
+    400226: Marche 12
+    400228: Marche 13
+    400230: Marche+ 01
+    400232: Marche+ 02
+    400234: Marche+ 03
+    400236: Marche+ 04
+    400238: Marche+ 05
+    400240: Marche+ 06
+    400242: Marche+ 07
+    400244: Marche+ 08
+    400246: Marche+ 09
+    400248: Marche+ 10
+    400250: Marche+ 11
+    400252: Marche+ 12
+    400254: Marche+ 13
+    400256: Mur 102 - English
+    400258: Mur 104 - 103
+    400260: Mur 105 - Toilettes
+    400262: Mur 106 - 107
+    400264: Mur 107 - 108
+    400266: Mur 108 - 109
+    400268: Mur 109 - Esc
+    400270: Mur English - Toilettes
+    400272: Mur Esc - 106
+    400274: Mur Toilette - 104
+    400276: Mur Toilette - Esc
+    400278: Sol bas
+    400280: Sol couloir$
+    400282: Sol Escalier
+    400284: Sol haut
+    400286: Terre-Plein Milieu escalier
+    400288: Window.000
+    400290: Window.001
+    400292: Window.002
+    400294: Window.003
+    400296: Window.004
+    400298: Window.005
+    400300: Window.006
+    400302: Window.007
+    400304: Window.008
+    400306: Window.009
+    400308: Window.010
+    400310: Window.011
+    400312: Window.012
+    400314: Window.013
+    400316: Window.014
+    400318: Window.015
+    400320: Window.016
+    400322: Window.017
+    400324: Window.018
+    400326: Window.019
+    400328: Window.020
+    400330: Window.021
+    400332: Window.022
+    400334: Window.023
+    400336: Window.024
+    400338: Window.025
+    400340: Window.026
+    400342: Window.027
+    400344: Window.028
+    400346: Window.029
+    400348: Window.030
+    400350: Window.031
+    400352: Window.032
+    400354: Window.033
+    400356: Window.034
+    400358: Window.035
+    400360: Window.036
+    400362: Window.037
+    400364: Window.038
+    400366: Window.039
+    400368: Window.040
+    400370: Window.041
+    400372: Window.042
+    400374: Window.043
+    2300000: Autre
+    2300002: Autre 1
+    2300004: Autre 1.001
+    2300006: Autre 1.002
+    2300008: Autre 2
+    2300010: Cache Porte 00,0
+    2300012: Cache Porte 00,1
+    2300014: Cache Porte 00,2
+    2300016: Cache Porte 01,0
+    2300018: Cache Porte 01,1
+    2300020: Cache Porte 01,2
+    2300022: Cache Porte 02,0
+    2300024: Cache Porte 02,1
+    2300026: Cache Porte 02,2
+    2300028: Cache Porte 03,0
+    2300030: Cache Porte 03,1
+    2300032: Cache Porte 03,2
+    2300034: Cache Porte 04,0
+    2300036: Cache Porte 04,1
+    2300038: Cache Porte 04,2
+    2300040: Cache Porte 05,0
+    2300042: Cache Porte 05,1
+    2300044: Cache Porte 05,2
+    2300046: Cache Porte 06,0
+    2300048: Cache Porte 06,1
+    2300050: Cache Porte 06,2
+    2300052: Cache Porte 07,0
+    2300054: Cache Porte 07,0.001
+    2300056: Cache Porte 07,1
+    2300058: Cache Porte 07,1.001
+    2300060: Cache Porte 07,2
+    2300062: Cache Porte 07,2.001
+    2300064: Cache Porte 08,0
+    2300066: Cache Porte 08,1
+    2300068: Cache Porte 08,2
+    2300070: Cache Porte 09,0
+    2300072: Cache Porte 09,1
+    2300074: Cache Porte 09,2
+    2300076: Cache Porte 10,0
+    2300078: Cache Porte 10,1
+    2300080: Cache Porte 10,2
+    2300082: Cache Porte 11,0
+    2300084: Cache Porte 11,1
+    2300086: Cache Porte 11,2
+    2300088: Cache Porte 12,0
+    2300090: Cache Porte 12,1
+    2300092: Cache Porte 12,2
+    2300094: Cache Porte 13,0
+    2300096: Cache Porte 13,1
+    2300098: Cache Porte 13,2
+    2300100: Cache Porte 14,0
+    2300102: Cache Porte 14,1
+    2300104: Cache Porte 14,2
+    2300106: Cache Porte 15,0
+    2300108: Cache Porte 15,1
+    2300110: Cache Porte 15,2
+    2300112: Cache Porte 16,0
+    2300114: Cache Porte 16,1
+    2300116: Cache Porte 16,2
+    2300118: Couloir Haut
+    2300120: Cube.145
+    2300122: Cube.146
+    2300124: Cube.147
+    2300126: Cube.148
+    2300128: Cube.149
+    2300130: Cube.150
+    2300132: Cube.151
+    2300134: Cube.152
+    2300136: Cube.153
+    2300138: Cube.154
+    2300140: Cube.155
+    2300142: Cube.156
+    2300144: Cube.157
+    2300146: Cube.158
+    2300148: Cube.159
+    2300150: Cube.160
+    2300152: Cube.161
+    2300154: Cube.162
+    2300156: Cube.163
+    2300158: Cube.164
+    2300160: Cube.165
+    2300162: Cube.166
+    2300164: Cube.167
+    2300166: Cube.168
+    2300168: Cube.169
+    2300170: Cube.170
+    2300172: Cube.171
+    2300174: Cube.172
+    2300176: Fa__ade Arri__re
+    2300178: Fa__ade Arri__re.002
+    2300180: Fa__ade Arri__re.003
+    2300182: Fa__ade Arri__re.004
+    2300184: Fa__ade Arri__re.005
+    2300186: Fa__ade Arri__re.006
+    2300188: Fa__ade Arri__re.007
+    2300190: Fa__ade Avant.001
+    2300192: Fa__ade Droite
+    2300194: Fa__ade Gauche
+    2300196: Marche
+    2300198: Marche 01
+    2300200: Marche 02
+    2300202: Marche 03
+    2300204: Marche 04
+    2300206: Marche 05
+    2300208: Marche 06
+    2300210: Marche 07
+    2300212: Marche 08
+    2300214: Marche 09
+    2300216: Marche 10
+    2300218: Marche 11
+    2300220: Marche 12
+    2300222: Marche 13
+    2300224: Marche+ 01
+    2300226: Marche+ 02
+    2300228: Marche+ 03
+    2300230: Marche+ 04
+    2300232: Marche+ 05
+    2300234: Marche+ 06
+    2300236: Marche+ 07
+    2300238: Marche+ 08
+    2300240: Marche+ 09
+    2300242: Marche+ 10
+    2300244: Marche+ 11
+    2300246: Marche+ 12
+    2300248: Marche+ 13
+    2300250: Mur 102 - English
+    2300252: Mur 104 - 103
+    2300254: Mur 105 - Toilettes
+    2300256: Mur 106 - 107
+    2300258: Mur 107 - 108
+    2300260: Mur 108 - 109
+    2300262: Mur 109 - Esc
+    2300264: Mur English - Toilettes
+    2300266: Mur Esc - 106
+    2300268: Mur Toilette - 104
+    2300270: Mur Toilette - Esc
+    2300272: Sol bas
+    2300274: Sol couloir$
+    2300276: Sol Escalier
+    2300278: Sol haut
+    2300280: Terre-Plein Milieu escalier
+    2300282: Window.000
+    2300284: Window.001
+    2300286: Window.002
+    2300288: Window.003
+    2300290: Window.004
+    2300292: Window.005
+    2300294: Window.006
+    2300296: Window.007
+    2300298: Window.008
+    2300300: Window.009
+    2300302: Window.010
+    2300304: Window.011
+    2300306: Window.012
+    2300308: Window.013
+    2300310: Window.014
+    2300312: Window.015
+    2300314: Window.016
+    2300316: Window.017
+    2300318: Window.018
+    2300320: Window.019
+    2300322: Window.020
+    2300324: Window.021
+    2300326: Window.022
+    2300328: Window.023
+    2300330: Window.024
+    2300332: Window.025
+    2300334: Window.026
+    2300336: Window.027
+    2300338: Window.028
+    2300340: Window.029
+    2300342: Window.030
+    2300344: Window.031
+    2300346: Window.032
+    2300348: Window.033
+    2300350: Window.034
+    2300352: Window.035
+    2300354: Window.036
+    2300356: Window.037
+    2300358: Window.038
+    2300360: Window.039
+    2300362: Window.040
+    2300364: Window.041
+    2300366: Window.042
+    2300368: Window.043
+    3300000: Autre
+    3300002: Autre 1
+    3300004: Autre 1.001
+    3300006: Autre 1.002
+    3300008: Autre 2
+    3300010: Cache Porte 00,0
+    3300012: Cache Porte 00,1
+    3300014: Cache Porte 00,2
+    3300016: Cache Porte 01,0
+    3300018: Cache Porte 01,1
+    3300020: Cache Porte 01,2
+    3300022: Cache Porte 02,0
+    3300024: Cache Porte 02,1
+    3300026: Cache Porte 02,2
+    3300028: Cache Porte 03,0
+    3300030: Cache Porte 03,1
+    3300032: Cache Porte 03,2
+    3300034: Cache Porte 04,0
+    3300036: Cache Porte 04,1
+    3300038: Cache Porte 04,2
+    3300040: Cache Porte 05,0
+    3300042: Cache Porte 05,1
+    3300044: Cache Porte 05,2
+    3300046: Cache Porte 06,0
+    3300048: Cache Porte 06,1
+    3300050: Cache Porte 06,2
+    3300052: Cache Porte 07,0
+    3300054: Cache Porte 07,0.001
+    3300056: Cache Porte 07,1
+    3300058: Cache Porte 07,1.001
+    3300060: Cache Porte 07,2
+    3300062: Cache Porte 07,2.001
+    3300064: Cache Porte 08,0
+    3300066: Cache Porte 08,1
+    3300068: Cache Porte 08,2
+    3300070: Cache Porte 09,0
+    3300072: Cache Porte 09,1
+    3300074: Cache Porte 09,2
+    3300076: Cache Porte 10,0
+    3300078: Cache Porte 10,1
+    3300080: Cache Porte 10,2
+    3300082: Cache Porte 11,0
+    3300084: Cache Porte 11,1
+    3300086: Cache Porte 11,2
+    3300088: Cache Porte 12,0
+    3300090: Cache Porte 12,1
+    3300092: Cache Porte 12,2
+    3300094: Cache Porte 13,0
+    3300096: Cache Porte 13,1
+    3300098: Cache Porte 13,2
+    3300100: Cache Porte 14,0
+    3300102: Cache Porte 14,1
+    3300104: Cache Porte 14,2
+    3300106: Cache Porte 15,0
+    3300108: Cache Porte 15,1
+    3300110: Cache Porte 15,2
+    3300112: Cache Porte 16,0
+    3300114: Cache Porte 16,1
+    3300116: Cache Porte 16,2
+    3300118: Couloir Haut
+    3300120: Cube.145
+    3300122: Cube.146
+    3300124: Cube.147
+    3300126: Cube.148
+    3300128: Cube.149
+    3300130: Cube.150
+    3300132: Cube.151
+    3300134: Cube.152
+    3300136: Cube.153
+    3300138: Cube.154
+    3300140: Cube.155
+    3300142: Cube.156
+    3300144: Cube.157
+    3300146: Cube.158
+    3300148: Cube.159
+    3300150: Cube.160
+    3300152: Cube.161
+    3300154: Cube.162
+    3300156: Cube.163
+    3300158: Cube.164
+    3300160: Cube.165
+    3300162: Cube.166
+    3300164: Cube.167
+    3300166: Cube.168
+    3300168: Cube.169
+    3300170: Cube.170
+    3300172: Cube.171
+    3300174: Cube.172
+    3300176: Fa__ade Arri__re
+    3300178: Fa__ade Arri__re.002
+    3300180: Fa__ade Arri__re.003
+    3300182: Fa__ade Arri__re.004
+    3300184: Fa__ade Arri__re.005
+    3300186: Fa__ade Arri__re.006
+    3300188: Fa__ade Arri__re.007
+    3300190: Fa__ade Avant.001
+    3300192: Fa__ade Droite
+    3300194: Fa__ade Gauche
+    3300196: Marche
+    3300198: Marche 01
+    3300200: Marche 02
+    3300202: Marche 03
+    3300204: Marche 04
+    3300206: Marche 05
+    3300208: Marche 06
+    3300210: Marche 07
+    3300212: Marche 08
+    3300214: Marche 09
+    3300216: Marche 10
+    3300218: Marche 11
+    3300220: Marche 12
+    3300222: Marche 13
+    3300224: Marche+ 01
+    3300226: Marche+ 02
+    3300228: Marche+ 03
+    3300230: Marche+ 04
+    3300232: Marche+ 05
+    3300234: Marche+ 06
+    3300236: Marche+ 07
+    3300238: Marche+ 08
+    3300240: Marche+ 09
+    3300242: Marche+ 10
+    3300244: Marche+ 11
+    3300246: Marche+ 12
+    3300248: Marche+ 13
+    3300250: Mur 102 - English
+    3300252: Mur 104 - 103
+    3300254: Mur 105 - Toilettes
+    3300256: Mur 106 - 107
+    3300258: Mur 107 - 108
+    3300260: Mur 108 - 109
+    3300262: Mur 109 - Esc
+    3300264: Mur English - Toilettes
+    3300266: Mur Esc - 106
+    3300268: Mur Toilette - 104
+    3300270: Mur Toilette - Esc
+    3300272: Sol bas
+    3300274: Sol couloir$
+    3300276: Sol Escalier
+    3300278: Sol haut
+    3300280: Terre-Plein Milieu escalier
+    3300282: Window.000
+    3300284: Window.001
+    3300286: Window.002
+    3300288: Window.003
+    3300290: Window.004
+    3300292: Window.005
+    3300294: Window.006
+    3300296: Window.007
+    3300298: Window.008
+    3300300: Window.009
+    3300302: Window.010
+    3300304: Window.011
+    3300306: Window.012
+    3300308: Window.013
+    3300310: Window.014
+    3300312: Window.015
+    3300314: Window.016
+    3300316: Window.017
+    3300318: Window.018
+    3300320: Window.019
+    3300322: Window.020
+    3300324: Window.021
+    3300326: Window.022
+    3300328: Window.023
+    3300330: Window.024
+    3300332: Window.025
+    3300334: Window.026
+    3300336: Window.027
+    3300338: Window.028
+    3300340: Window.029
+    3300342: Window.030
+    3300344: Window.031
+    3300346: Window.032
+    3300348: Window.033
+    3300350: Window.034
+    3300352: Window.035
+    3300354: Window.036
+    3300356: Window.037
+    3300358: Window.038
+    3300360: Window.039
+    3300362: Window.040
+    3300364: Window.041
+    3300366: Window.042
+    3300368: Window.043
+    4300000: Window.002
+    4300002: Fa__ade Droite
+    4300004: Fa__ade Arri__re
+    4300006: Fa__ade Gauche
+    4300008: Mur Esc - 106
+    4300010: Mur 106 - 107
+    4300012: Mur 107 - 108
+    4300014: Mur 108 - 109
+    4300016: Mur 109 - Esc
+    4300018: Mur 105 - Toilettes
+    4300020: Mur Toilette - Esc
+    4300022: Mur Toilette - 104
+    4300024: Mur 104 - 103
+    4300026: Mur 102 - English
+    4300028: Mur English - Toilettes
+    4300030: Fa__ade Avant.001
+    4300032: Window.000
+    4300034: Window.001
+    4300036: Window.003
+    4300038: Window.004
+    4300040: Window.005
+    4300042: Window.006
+    4300044: Window.007
+    4300046: Window.008
+    4300048: Window.009
+    4300050: Window.010
+    4300052: Window.012
+    4300054: Window.013
+    4300056: Window.014
+    4300058: Window.015
+    4300060: Window.016
+    4300062: Window.017
+    4300064: Window.018
+    4300066: Window.019
+    4300068: Window.020
+    4300070: Window.021
+    4300072: Window.022
+    4300074: Cache Porte 05,0
+    4300076: Cache Porte 05,1
+    4300078: Marche 02
+    4300080: Terre-Plein Milieu escalier
+    4300082: Marche 03
+    4300084: Marche 04
+    4300086: Marche 05
+    4300088: Marche 06
+    4300090: Marche 07
+    4300092: Marche 08
+    4300094: Marche 09
+    4300096: Marche 10
+    4300098: Marche+ 04
+    4300100: Marche+ 05
+    4300102: Marche+ 06
+    4300104: Marche+ 07
+    4300106: Marche+ 08
+    4300108: Marche+ 09
+    4300110: Marche+ 10
+    4300112: Marche+ 13
+    4300114: Marche+ 11
+    4300116: Fa__ade Arri__re.002
+    4300118: Fa__ade Arri__re.003
+    4300120: Cache Porte 05,2
+    4300122: Cache Porte 06,0
+    4300124: Cache Porte 06,2
+    4300126: Cache Porte 06,1
+    4300128: Cache Porte 07,0.001
+    4300130: Cache Porte 07,2.001
+    4300132: Cache Porte 07,1.001
+    4300134: Cache Porte 04,2
+    4300136: Cache Porte 04,0
+    4300138: Cache Porte 03,2
+    4300140: Cache Porte 03,0
+    4300142: Cache Porte 04,1
+    4300144: Cache Porte 03,1
+    4300146: Cache Porte 01,2
+    4300148: Cache Porte 02,0
+    4300150: Cache Porte 02,1
+    4300152: Cache Porte 02,2
+    4300154: Cache Porte 01,0
+    4300156: Cache Porte 01,1
+    4300158: Cache Porte 00,2
+    4300160: Cache Porte 00,0
+    4300162: Cache Porte 00,1
+    4300164: Couloir Haut
+    4300166: Cache Porte 14,1
+    4300168: Autre
+    4300170: Cache Porte 14,0
+    4300172: Cache Porte 14,2
+    4300174: Cache Porte 15,0
+    4300176: Cache Porte 15,2
+    4300178: Cache Porte 15,1
+    4300180: Cache Porte 16,0
+    4300182: Cache Porte 16,2
+    4300184: Cache Porte 16,1
+    4300186: Cache Porte 13,2
+    4300188: Cache Porte 13,0
+    4300190: Cache Porte 12,0
+    4300192: Cache Porte 12,2
+    4300194: Cache Porte 13,1
+    4300196: Cache Porte 12,1
+    4300198: Cache Porte 11,2
+    4300200: Cache Porte 11,0
+    4300202: Cache Porte 10,2
+    4300204: Cache Porte 10,0
+    4300206: Cache Porte 10,1
+    4300208: Cache Porte 11,1
+    4300210: Cache Porte 09,2
+    4300212: Cache Porte 09,0
+    4300214: Cache Porte 09,1
+    4300216: Cache Porte 08,2
+    4300218: Cache Porte 08,0
+    4300220: Autre 1
+    4300222: Cache Porte 08,1
+    4300224: Cache Porte 07,2
+    4300226: Cache Porte 07,0
+    4300228: Autre 2
+    4300230: Cache Porte 07,1
+    4300232: Fa__ade Arri__re.004
+    4300234: Window.023
+    4300236: Window.024
+    4300238: Window.025
+    4300240: Window.026
+    4300242: Window.027
+    4300244: Window.028
+    4300246: Window.029
+    4300248: Window.030
+    4300250: Window.031
+    4300252: Window.032
+    4300254: Window.033
+    4300256: Window.034
+    4300258: Window.035
+    4300260: Window.036
+    4300262: Window.037
+    4300264: Window.038
+    4300266: Window.039
+    4300268: Window.040
+    4300270: Window.041
+    4300272: Window.042
+    4300274: Marche 11
+    4300276: Marche 12
+    4300278: Marche+ 03
+    4300280: Marche+ 02
+    4300282: Marche 13
+    4300284: Marche+ 01
+    4300286: Marche 01
+    4300288: Marche
+    4300290: Marche+ 12
+    4300292: Sol couloir$
+    4300294: Sol bas
+    4300296: Sol haut
+    4300298: Cube.145
+    4300300: Cube.146
+    4300302: Cube.147
+    4300304: Cube.148
+    4300306: Cube.149
+    4300308: Cube.150
+    4300310: Cube.151
+    4300312: Cube.152
+    4300314: Cube.153
+    4300316: Cube.154
+    4300318: Cube.155
+    4300320: Cube.156
+    4300322: Cube.157
+    4300324: Cube.158
+    4300326: Cube.159
+    4300328: Cube.160
+    4300330: Cube.161
+    4300332: Cube.162
+    4300334: Cube.163
+    4300336: Cube.164
+    4300338: Cube.165
+    4300340: Cube.166
+    4300342: Cube.167
+    4300344: Cube.168
+    4300346: Cube.169
+    4300348: Cube.170
+    4300350: Cube.171
+    4300352: Cube.172
+    4300354: Sol Escalier
+    4300356: Window.011
+    4300358: Fa__ade Arri__re.005
+    4300360: Fa__ade Arri__re.006
+    4300362: Fa__ade Arri__re.007
+    4300364: Autre 1.001
+    4300366: Autre 1.002
+    4300368: Window.043
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
