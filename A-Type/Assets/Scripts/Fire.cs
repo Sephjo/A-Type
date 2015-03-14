@@ -13,14 +13,18 @@ public class Fire : MonoBehaviour
     private float cooldownRemaning = 0;
     private float recul = 0;
     private float hitMarker = 0;
-    
+    private int currentNbBalle;
+
     // Cette fonction joue le son du tir, elle est appelée quand le joueur tire.
     void PlaySound(int clip)
     {
         audio.clip = Sound[clip];
         audio.Play();
     }
-
+    void Start ()
+    {
+        currentNbBalle = nbBalle;
+    }
     void Update()
     {
         Camera cam = Camera.main;
@@ -40,7 +44,7 @@ public class Fire : MonoBehaviour
         }
 
         // Si le joueur appuie sur la touche de tir, et que l'arme est prete à tirer
-        if (Input.GetButton("Fire1") && cooldownRemaning <= 0 && !gameObject.GetComponent<PauseMenu>().isPaused() && nbBalle > 0)
+        if (Input.GetButton("Fire1") && cooldownRemaning <= 0 && !gameObject.GetComponent<PauseMenu>().isPaused() && currentNbBalle > 0)
         {
             PlaySound(0);
       
@@ -74,12 +78,18 @@ public class Fire : MonoBehaviour
             recul -= instantReculY / 1.5f;
             cooldownRemaning = cooldown;
 
-            nbBalle = nbBalle - 1;
+            currentNbBalle--;
+        }
+        if (currentNbBalle == 0)
+        {
+            currentNbBalle = nbBalle;
+            PlaySound(1);
         }
 
         if (Input.GetButton("Reload"))
         {
-            nbBalle = 6;
+            currentNbBalle = nbBalle;
+
             PlaySound(1);
         }
 
