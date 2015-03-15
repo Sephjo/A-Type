@@ -18,13 +18,20 @@ public class Fire : MonoBehaviour
     // Cette fonction joue le son du tir, elle est appelée quand le joueur tire.
     void PlaySound(int clip)
     {
-        audio.clip = Sound[clip];
-        audio.Play();
+        GetComponent<AudioSource>().clip = Sound[clip];
+        GetComponent<AudioSource>().Play();
     }
     void Start ()
     {
         currentNbBalle = nbBalle;
     }
+    void reload()
+    {
+        cooldownRemaning -= 10 * Time.deltaTime;
+        currentNbBalle = nbBalle;
+        PlaySound(1);
+    }
+
     void Update()
     {
         Camera cam = Camera.main;
@@ -50,7 +57,7 @@ public class Fire : MonoBehaviour
       
             // On crée une balle avec de la force
             GameObject obj = (GameObject)Instantiate(bullet, cam.transform.position, Quaternion.Euler(cam.transform.rotation.eulerAngles.x + 90, cam.transform.rotation.eulerAngles.y, cam.transform.rotation.eulerAngles.z));
-            obj.rigidbody.AddForce(cam.transform.forward * 1000);
+            obj.GetComponent<Rigidbody>().AddForce(cam.transform.forward * 1000);
 
             // On crée un rayon pour tester si le joueur touche un ennemi
             Ray ray = new Ray(cam.transform.position, cam.transform.forward);
@@ -82,15 +89,12 @@ public class Fire : MonoBehaviour
         }
         if (currentNbBalle == 0)
         {
-            currentNbBalle = nbBalle;
-            PlaySound(1);
+            reload();
         }
 
         if (Input.GetButton("Reload"))
         {
-            currentNbBalle = nbBalle;
-
-            PlaySound(1);
+            reload();
         }
 
         // On met à jour le recul

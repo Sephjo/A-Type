@@ -19,8 +19,8 @@
 	  
 		void PlaySound(int clip)
 		{
-			audio.clip = Sound[clip];
-			audio.Play();
+			GetComponent<AudioSource>().clip = Sound[clip];
+			GetComponent<AudioSource>().Play();
 		}
 	
 	  // Use this for initialization

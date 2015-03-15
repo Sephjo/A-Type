@@ -228,7 +228,7 @@ public class Ennemy : MonoBehaviour
             {
                 if (_characterState == CharacterState.Running)
                 {
-                   
+                        //anim.SetBool("isRunning", true);
                 }
                 else if (_characterState == CharacterState.Walking)
                 {
